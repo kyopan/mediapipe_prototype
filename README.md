@@ -1,5 +1,7 @@
 # Mac WebCam Pose Estimation (MediaPipe x YOLOv8)
 
+![使用例: 複数人検知プロトタイプの実行画面](demo.png)
+
 Mac（特にApple Silicon M1/M2/M3）のWebカメラ映像から、複数人の骨格をリアルタイムで高精度に推定するPythonプロトタイプです。
 YOLOv8による高速な人物検出と、MediaPipe Poseによる骨格推定を組み合わせています。
 
