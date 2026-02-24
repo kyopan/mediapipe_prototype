@@ -17,8 +17,8 @@ YOLOv8による高速な人物検出と、MediaPipe Poseによる骨格推定を
 
 1. リポジトリのクローン
 ```bash
-git clone https://github.com/your-username/mediapipe-mac-multiperson.git
-cd mediapipe-mac-multiperson
+git clone https://github.com/kyopan/mediapipe_prototype.git
+cd mediapipe_prototype
 ```
 
 2. 仮想環境の作成と有効化
