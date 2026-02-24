@@ -21,15 +21,20 @@ git clone https://github.com/kyopan/mediapipe_prototype.git
 cd mediapipe_prototype
 ```
 
-2. 仮想環境の作成と有効化
+2. 仮想環境の作成とライブラリのインストール
+
+**【標準の venv + pip を使う場合】**
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
-3. 依存ライブラリのインストール
+**【高速な uv を使う場合（おすすめ）】**
 ```bash
-pip install -r requirements.txt
+uv venv .venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
 ```
 
 ## 使い方 (Usage)
